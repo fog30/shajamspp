@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.christmas {
+  background: linear-gradient(120deg, #b30000, #006400);
+  height: 100vh;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2 {
+  font-size: 26px;
+}
+
+input {
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+}
+
+.btn {
+  padding: 14px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  background: gold;
+  cursor: pointer;
+}
+
+#wheel {
+  font-size: 40px;
+  margin: 20px;
+  padding: 20px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 50%;
+}
